@@ -35,3 +35,16 @@ pollutiondb-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Ecto / local SQLite database
+*.db
+*.sqlite
+*.sqlite3
+*-shm
+*-wal
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# File with data
+*.csv
